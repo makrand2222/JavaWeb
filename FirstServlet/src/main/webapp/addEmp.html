@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add employee</title>
+</head>
+<body>
+<h1>Add new Employee</h1>
+<form action="SaveServlet" method="post">
+<table>
+<tr>
+<td>Name:</td>
+<td>
+<input type="text" name="name">
+</td>
+</tr>
+
+<tr><td>Password:</td>
+<td>
+<input type="password" name="pwd">
+</td>
+</tr>
+
+<tr><td>Email:</td>
+<td>
+<input type="email" name="email">
+</td>
+</tr>
+<tr>
+<td>Country:</td>
+<td><select name="country" style="width: 150px">
+		<option>Select Country</option>
+		<option>India</option>
+		<option>Norway</option>
+		<option>US</option>
+		<option>Germany</option>
+		<option>Other</option>
+		</select>
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<input type="submit" value="Save Employee">
+</td>
+</tr>
+</table>
+
+</form>
+<p>Already registered? <a href="Login.html"><b>Click here</b></a> to login</p>
+</br>
+</body>
+</html>
